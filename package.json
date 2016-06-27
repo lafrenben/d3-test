@@ -1,0 +1,24 @@
+{
+  "name": "d3-test",
+  "version": "1.0.0",
+  "description": "D3.js example project, using Grunt, browserify, sass, and uploading to S3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Lafreniere",
+  "license": "ISC",
+  "devDependencies": {
+    "d3": "^3.5.12",
+    "express": "^4.13.3",
+    "grunt": "^0.4.5",
+    "grunt-aws-s3": "^0.14.3",
+    "grunt-browserify": "^4.0.1",
+    "grunt-contrib-compress": "^0.14.0",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express-server": "^0.5.1"
+  },
+  "dependencies": {}
+}
